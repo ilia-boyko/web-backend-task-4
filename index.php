@@ -213,8 +213,8 @@ else {
   $bio= $_POST['field-bio'];
 
   // Сохранение в БД.
-  $user = 'u41028';
-  $pass = '2356452';
+  $user = 'u47534';
+  $pass = '6518561';
   $db = new PDO('mysql:host=localhost;dbname=u41028', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
    try {
     $stmt = $db->prepare("INSERT INTO application SET name=:name, email=:email, year=:byear, pol=:pol, konech=:limbs, biogr=:bio");
